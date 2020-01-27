@@ -1,0 +1,29 @@
+<html><body><font face="courier new">
+<pre>
+<script>
+var nick = 7;
+ var k = 0;
+ for (row=1; row <= nick; row++)
+{
+ 	for (col=1; col <= row; col++)
+	{
+		document.write(" ")
+	}
+	for (col=6; col >= row; col--)
+	{
+		document.write((col-1)%2)
+	}
+	document.write((row)%2)
+	
+	for (col=row; col <= 6; col++)
+	{
+		document.write((col-1)%2)
+	}
+
+	
+
+
+document.write("\n")
+}
+</script>
+</pre></font></body></html>

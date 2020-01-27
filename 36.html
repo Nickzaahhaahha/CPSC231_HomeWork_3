@@ -1,0 +1,47 @@
+<html><body><font face="courier new">
+<pre>
+<script>
+var nick = 5;
+ for (row=1; row <= 3; row++)
+{
+	for (col=row; col <= 3; col++)
+	{
+		document.write(col)
+	}
+	for (col=1; col <= row; col++)
+	{
+		document.write("*")
+	}
+	for (col=2; col <= row; col++)
+	{
+		document.write("*")
+	}
+	for (col=3; col >= row; col--)
+	{
+		document.write(col)
+	}
+	
+document.write("\n")
+}
+for (row=2; row <= 3; row++)
+{
+	for (col=1; col <= row; col++)
+	{
+		document.write(4-(4-col))
+	}
+	for (col=row; col <= 3; col++)
+	{
+		document.write("*")
+	}
+	for (col=row; col <= 2; col++)
+	{
+		document.write("*")
+	}
+	for (col=1; col <= row; col++)
+	{
+		document.write(4-col)
+	}
+document.write("\n")
+}
+</script>
+</pre></font></body></html>
